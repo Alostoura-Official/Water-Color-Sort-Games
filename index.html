@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Games</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<div id = "game">
+			<div id = "menu">
+				<div id = "menu-heading"> ALOSTORA-GAMES</div>
+				<div class = "lvl" id = "easy" onclick = "OpenLevel(0);">EASY<span> سهل</span></div>
+				<div class = "lvl" id = "medium" onclick = "OpenLevel(1);">MEDIUM<span> متوسط</span></div>
+				<div class = "lvl" id = "hard" onclick = "OpenLevel(2);">HARD<span> صعب</span></div>
+				<div class = "lvl" id = "very-hard" onclick = "OpenLevel(3)">VERY HARD<span> صعب جدا</span></div>
+				<div class = "lvl" id = "impossible" onclick = "OpenLevel(7);">IMPOSSIBLE<span> مستحيل</span></div>
+				<br><br><br>
+				<div id = "rules-btn" onclick = "ShowRules();">مساعدة</div>
+			</div>
+			<div id = "level"></div>
+			<div id = "rules-page">
+				<div id = "rules">
+					<div id = "rules-heading">طريقة اللعب</div>
+					<div id = "rules-text">سيكون هناك بعض الأكواب أو أنابيب الاختبار على وجه الدقة ، مهمتك هي وضع السوائل بنفس اللون معًا! لا يمكنك نقل المياه الملونة المختلفة من كوب إلى آخر إلا إذا كان الزجاج الآخر فارغًا أو إذا كانت الطبقة العلوية من الماء لها نفس لون الزجاج الذي سيتم أخذ الماء منه. سيتم تمييز الزجاج الذي حددته لمنع الالتباس. سيعيدك زر إعادة التشغيل إلى بداية المستوى ، وأيضًا في كل مرة تفتح فيها نفس المستوى ، سيتم خلط المياه. تحقق من اللعبة الحقيقية<br> مع تحياتي الأسطورة </div>
+					
+<a href="https://github.com/Alostoura-Official"> اتصل بالمطور</a>
+
+					<div id = "back" onclick = "HideRules();">فهمت هذا</div>
+				</div>
+			</div>
+		</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
