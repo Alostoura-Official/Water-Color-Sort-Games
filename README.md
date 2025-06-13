@@ -27,9 +27,13 @@
 ---
 ## 📸 معاينة
 
-لقطة متحركة توضح طريقة اللعب:
+لقطة توضح طريقة اللعب:
 
-![preview](Water-Color-Sort.png)
+
+<p align="center">
+  <img alt="صورة 1" src="Water-Color-Sort.png" style="width: 250px; height: 250px; margin: 15px; border-radius: 50%; object-fit: cover;">
+</p>
+
 
 ---
 
