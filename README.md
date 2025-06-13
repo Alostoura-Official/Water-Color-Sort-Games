@@ -21,7 +21,7 @@
 
 لقطة متحركة توضح طريقة اللعب:
 
-![preview](Water Color Sort.png)
+![preview](Water-Color-Sort.png)
 
 ---
 
